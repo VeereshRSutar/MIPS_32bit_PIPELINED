@@ -1,10 +1,11 @@
 # MIPS_32bit_PIPELINED
-#Five stages of MIPS pipelined implementation :
+# Five stages of MIPS pipelined implementation :
 1.IF: Instruction fetch
 2.ID: Instruction decode and register file read
 3.EX: Execution or address calculation
 4.MEM: Data memory access
 5.WB: Write back
+
 "Pipelining improves performance by increasing instruction throughput, as opposed to decreasing the execution time of an individual instruction, but instruction throughput is the important metric because real programs execute billions of instructions".
 
 All the architecture is same as single cycle but extra components added in datapath are listed below.
