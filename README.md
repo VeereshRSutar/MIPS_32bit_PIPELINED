@@ -10,8 +10,8 @@
 
 All the architecture is same as single cycle but extra components added in datapath are listed below.
 
-4 pipeline registers to pass on the information calculated in previous stage.
-comparator and adder in ID stage to reduce the number of stall cycles to 1 in case of branch instructions.
-Hazard detection unit in ID stage to detect load word hazard.
-Forwarding unit in EX stage to reduce unnecessary stall cycles.
-some small components like mux etc.
+ 4 pipeline registers to pass on the information calculated in previous stage.
+ comparator and adder in ID stage to reduce the number of stall cycles to 1 in case of branch instructions.
+ Hazard detection unit in ID stage to detect load word hazard.
+ Forwarding unit in EX stage to reduce unnecessary stall cycles.
+ some small components like mux etc.
